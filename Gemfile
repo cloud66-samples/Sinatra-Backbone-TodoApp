@@ -1,12 +1,11 @@
-source 'http://ruby.taobao.org'
+source 'https://rubygems.org'
 
 gem 'thin'
 gem 'json'
 gem 'data_mapper'
-gem 'dm-sqlite-adapter'  	
-gem 'sqlite3'
+gem 'dm-mysql-adapter'  	
+gem 'mysql2'
 gem 'haml'
-gem 'debugger'
 gem 'sinatra'
 gem "sinatra-flash"
 gem "sinatra-redirect-with-flash"
